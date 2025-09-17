@@ -1,0 +1,19 @@
+{
+  "hello": "Assalom aleykum!",
+  "enter_message": "Ushbu bot orqali siz xonadoningiz uchun kerakli xizmatlar haqida ma'lumot olishingiz mumkin!",
+  "navigation": {
+    "message": "Turar joyingizni tanlang:",
+    "invalid": "Iltimos, turar joyingizni tanlang!"
+  },
+  "branch": {
+    "message": "Xizmat turini tanlang:",
+    "invalid": "Iltimos, xizmat turini tanlang!"
+  },
+  "language": {
+    "message": "Tilni tanlang:",
+    "success": "Muvaffaqiyatli o'zgartirildi!"
+  },
+  "other": {
+    "back": "◀️ Ortga"
+  }
+}
