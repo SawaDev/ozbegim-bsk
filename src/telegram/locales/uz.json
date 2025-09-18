@@ -1,6 +1,6 @@
 {
   "hello": "Assalom aleykum!",
-  "enter_message": "Ushbu bot orqali siz xonadoningiz uchun kerakli xizmatlar haqida ma'lumot olishingiz mumkin!",
+  "enter_message": "Bu bot orqali o‘zingizga kerakli BSK xodimini osongina chaqirishingiz mumkin.",
   "navigation": {
     "message": "Turar joyingizni tanlang:",
     "invalid": "Iltimos, turar joyingizni tanlang!"
