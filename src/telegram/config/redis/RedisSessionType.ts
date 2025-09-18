@@ -9,9 +9,11 @@ export interface CustomSessionType {
     name: string
     contacts: Array<{
       title: string
-      name: string
-      work_time?: string
-      phone: string
+      employees: Array<{
+        name: string
+        phone: string
+        work_time?: string
+      }>
     }>
   }
 }

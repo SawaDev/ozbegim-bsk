@@ -20,9 +20,14 @@ branchScene.action(/^service:(.+)$/i, async ctx => {
   const title = data ? data.replace(/^service:/i, "") : ""
   const contact = ctx.session.branch?.contacts.find(c => c.title === title)
   if (!contact) return
-  const message = `${contact.title}: ${contact.name} ${
-    contact.work_time ? `\nIsh vaqti: ${contact.work_time}` : ""
-  } ${contact.phone ? `\nTelefon: ${contact.phone}` : ""}`
+  const message = `${contact.title}\n${contact.employees
+    .map(
+      e =>
+        `${e.name} ${e.work_time ? `\nIsh vaqti: ${e.work_time}` : ""} ${
+          e.phone ? `\nTelefon: ${e.phone}` : ""
+        }`
+    )
+    .join("\n\n")}`
   await ctx.reply(message)
 })
 
